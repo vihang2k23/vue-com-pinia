@@ -6,7 +6,7 @@ Actions become Methods/Function  -->
 import { useCounterStore } from '../store/counter';
 
 const store = useCounterStore()
-console.log(store);
+// console.log(store);
 </script>
 
 <template>

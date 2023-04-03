@@ -1,7 +1,7 @@
 <script setup>
 import { usemutationStore } from '../store/mutating';
 const store = usemutationStore()
-console.log(store);
+// console.log(store);
 // we can change value of store but not replace
 
 // store.name = "smit"
@@ -13,9 +13,9 @@ store.$patch({
     surname: "patel"
 })
 store.$patch((state)=>{
-    console.log(state.data)
+    // console.log(state.data)
     state.data.push("vue3")
-    console.log(state.data,"after")
+    // console.log(state.data,"after")
 })
 
 </script>
