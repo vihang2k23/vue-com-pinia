@@ -4,5 +4,8 @@ import {createPinia} from 'pinia'
 
 //Create Pinia Instance 
 const pinia = createPinia()
+const app = createApp(App)
 
-createApp(App).mount('#app')
+//use pinia Instance
+app.use(pinia)
+app.mount('#app')
