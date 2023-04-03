@@ -18,10 +18,13 @@ function increment(){
 function decrement(){
     count.value--
 }
+function $reset() {
+    count.value = 0
+  }
 return{
     count,
     doubleCount,
     increment,
-    decrement
+    decrement,$reset
 }
 })

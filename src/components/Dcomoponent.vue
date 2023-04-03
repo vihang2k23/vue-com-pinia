@@ -1,7 +1,11 @@
 <script setup>
 import {usecompoStore} from '../store/compo'
+
 const store = usecompoStore()
-console.log(store,"store");
+
+
+
+console.log(store);
 </script>
 <template>
     <div>

@@ -19,7 +19,7 @@ const store = useCounterStore()
 <!-- Actions -->
  <button @click="store.increment"> + </button>
  <button @click="store.decrement"> - </button>
-
+<button @click="store.$reset">reset state</button>
  <!--Getters-->
  
  <h1 > Multiple Count with 2 = {{ store.doubleCount }}</h1>
